@@ -34,11 +34,11 @@ def request_api_key():
 # If no API key found, request it from the user and store it in .env
 if not polygon_apikey:
     # Prompt the user for an API key
-    api_key = request_api_key()
+    polygon_apikey = request_api_key()
 
     # Store the API key in the .env file
-    set_key(dotenv_path, "polygon_apikey", api_key)
-    print(f"API key has been set: {api_key[:4]}****")  # Mask part of the API key
+    set_key(dotenv_path, "polygon_apikey", polygon_apikey)
+    print(f"API key has been set: {polygon_apikey[:4]}****")  # Mask part of the API key
 else:
     print(f"API key is already set: {polygon_apikey[:4]}****")  # Show part of the existing API key
 
@@ -53,6 +53,7 @@ def change_api_key():
 def delete_api_key():
     unset_key(dotenv_path, "polygon_apikey")
     print("API key has been deleted.")
+
 
 
 

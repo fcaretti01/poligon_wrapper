@@ -2,8 +2,7 @@ import requests
 import pandas as pd
 import logging
 from .logging_config import setup_logging
-from .utils import polygon_apikey
-
+from poligon_wrapper import polygon_apikey
 
 
 # set-up logger 

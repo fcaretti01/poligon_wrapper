@@ -9,6 +9,7 @@ authors = [
 maintainers = [
     {name = "fcaretti01", email = "filippo.caretti@icloud.com" }
 ]
+keywords = ["stocks", "poligon", "poligon.io", "api", "wrapper"]
 requires-python = ">=3.11"
 dependencies = [
     "aiohttp>=3.11.10",

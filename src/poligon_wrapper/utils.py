@@ -4,6 +4,7 @@ import ssl, os
 import pandas as pd
 from datetime import datetime, date, time
 from dotenv import find_dotenv, load_dotenv
+from poligon_wrapper import polygon_apikey
 
 """
 ---------------------------------------------------------------------------------------------------------
@@ -12,9 +13,7 @@ from dotenv import find_dotenv, load_dotenv
 ---------------------------------------------------------------------------------------------------------
 """
 
-dotenv_path = find_dotenv()
-load_dotenv(dotenv_path)
-polygon_apikey = os.getenv("polygon_apikey")
+
 
 """
 ---------------------------------------------------------------------------------------------------------
