@@ -1,6 +1,6 @@
 [project]
 name = "poligon-wrapper"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -9,7 +9,7 @@ authors = [
 maintainers = [
     {name = "fcaretti01", email = "filippo.caretti@icloud.com" }
 ]
-keywords = ["stocks", "poligon", "poligon.io", "api", "wrapper"]
+keywords = ["stocks", "poligon", "poligon.io", "api", "wrapper", "fast", "asyncio"]
 requires-python = ">=3.11"
 dependencies = [
     "aiohttp>=3.11.10",
