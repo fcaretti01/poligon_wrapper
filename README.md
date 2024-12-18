@@ -1,8 +1,8 @@
-# Poligon Wrapper
+# Polygon Wrapper
 
 ## Overview
 
-**Poligon Wrapper** is a Python package designed to interact with Poligon.io API to fetch aggregate bar data for single or multiple stocks over customizable timeframes. It leverages both synchronous and asynchronous API calls for efficient data retrieval. The package is built with logging, progress tracking, and robust error handling to ensure seamless performance.
+**Polygon Wrapper** is a Python package designed to interact with Polygon.io API to fetch aggregate bar data for single or multiple stocks over customizable timeframes. It leverages both synchronous and asynchronous API calls for efficient data retrieval. The package is built with logging, progress tracking, and robust error handling to ensure seamless performance.
 
 ## Features
 - Retrieve **aggregate stock bar data** (open, high, low, close, volume, etc.) for single or multiple stocks.
